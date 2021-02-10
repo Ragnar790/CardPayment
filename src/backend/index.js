@@ -14,7 +14,7 @@ app.use(
 );
 
 //CREATING THE CONNECTION
-const db = mongoose.createConnection("mongodb://localhost:27017/To-do", {
+const db = mongoose.createConnection("mongodb://localhost:27017/CardDetails", {
 	useNewUrlParser: true,
 	useUnifiedTopology: true,
 });
