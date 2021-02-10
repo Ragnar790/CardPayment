@@ -12,6 +12,7 @@ function App() {
 	const [error, setError] = useState("");
 
 	const submitHandler = () => {
+		setError("");
 		fetch("http://localhost:8080/confirmPayment", {
 			method: "POST",
 			body: JSON.stringify({ cardNumber, expDate, cvc, cardOwner }),
