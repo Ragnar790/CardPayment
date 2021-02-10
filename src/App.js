@@ -26,7 +26,9 @@ function App() {
 			})
 			.then((r) => {
 				if (r.success === true) {
-					window.alert("Signed up!");
+					window.alert(
+						`Payment confirmed with card number ${cardNumber}, expiration date ${expDate}, cvc ${cvc}, and card owner named ${cardOwner}`
+					);
 				} else {
 					setError(r.error);
 				}
