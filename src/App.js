@@ -40,7 +40,9 @@ function App() {
 			<img src={cardImg} alt="cards" />
 			<Form>
 				<FormGroup>
-					<Label for="cardNumber">Card Number</Label>
+					<Label for="cardNumber">
+						<b>Card Number</b>
+					</Label>
 					<Input
 						type="number"
 						id="cardNumber"
@@ -50,7 +52,9 @@ function App() {
 					/>
 				</FormGroup>
 				<FormGroup>
-					<Label for="ExpirationDate">Expiration Date</Label>
+					<Label for="ExpirationDate">
+						<b>Expiration Date</b>
+					</Label>
 					<Input
 						type="text"
 						id="ExpirationDate"
@@ -60,7 +64,9 @@ function App() {
 					/>
 				</FormGroup>
 				<FormGroup>
-					<Label for="CVC">CV Code</Label>
+					<Label for="CVC">
+						<b>CV Code</b>
+					</Label>
 					<Input
 						type="number"
 						name="email"
@@ -71,7 +77,9 @@ function App() {
 					/>
 				</FormGroup>
 				<FormGroup>
-					<Label for="cardOwner">Card Owner</Label>
+					<Label for="cardOwner">
+						<b>Card Owner</b>
+					</Label>
 					<Input
 						type="email"
 						name="email"
